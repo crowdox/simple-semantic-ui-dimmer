@@ -1,8 +1,8 @@
-import Ember from 'ember';
+import Component from '@ember/component';
 // Relative path works since both survey and manage are in lib/...
 import SSTransition from '../mixins/ss-transition';
 
-export default Ember.Component.extend(SSTransition, {
+export default Component.extend(SSTransition, {
   classNames: ['ui', 'dimmer'],
   isActive: false,
 
